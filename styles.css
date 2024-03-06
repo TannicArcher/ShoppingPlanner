@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 1em;
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.shopping-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.shopping-item.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.shopping-item.delete::after {
+    content: "❌";
+    margin-left: 10px;
+    color: red;
+}
